@@ -24,6 +24,8 @@ const Wrapper = styled.div`
     color: var(--grey-500);
   }
   a {
+    font-size: 1.25rem;
+    font-weight: 700;
     color: var(--primary-500);
     text-transform: capitalize;
   }
