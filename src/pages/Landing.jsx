@@ -1,11 +1,13 @@
-import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+
+export const loader = async () => {
+  return 'something';
+};
 
 const Landing = () => {
-  return (
-    <div>
-      <h2>landing</h2>
-    </div>
-  );
+  const data = useLoaderData();
+  console.log(data);
+  return <h2>landing</h2>;
 };
 
 export default Landing;
