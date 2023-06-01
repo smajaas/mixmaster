@@ -20,5 +20,4 @@ const SearchForm = ({ searchTerm }) => {
     </Wrapper>
   );
 };
-
 export default SearchForm;
