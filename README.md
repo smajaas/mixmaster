@@ -1,3 +1,6 @@
+Deployed Link:
+https://cocktail-project-smajaas.netlify.app/
+
 ## Steps
 
 #### Install and Setup
