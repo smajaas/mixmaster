@@ -1,8 +1,6 @@
 import { useLoaderData, Link, Navigate } from 'react-router-dom';
 import axios from 'axios';
 import Wrapper from '../assets/wrappers/CocktailPage';
-import { useQuery } from '@tanstack/react-query';
-
 const singleCocktailUrl =
   'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=';
 import { useQuery } from '@tanstack/react-query';
